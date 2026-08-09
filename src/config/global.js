@@ -292,14 +292,106 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Bioseguridad',
+      significado:
+        'medidas destinadas a prevenir la entrada y propagación de enfermedades en los sistemas de producción animal.',
+    },
+    {
+      termino: 'Digestibilidad',
+      significado:
+        'capacidad que tiene un alimento para ser digerido y aprovechado por el organismo.',
+    },
+    {
+      termino: 'Granívora',
+      significado:
+        'ave cuya alimentación se basa principalmente en granos y semillas.',
+    },
+    {
+      termino: 'Inocuidad',
+      significado:
+        'condición que garantiza que un alimento no representa riesgos para la salud cuando se utiliza adecuadamente.',
+    },
+    {
+      termino: 'Metabolismo',
+      significado:
+        'conjunto de reacciones químicas mediante las cuales el organismo transforma y utiliza los nutrientes.',
+    },
+    {
+      termino: 'Micotoxinas',
+      significado:
+        'sustancias tóxicas producidas por algunos hongos que pueden contaminar los alimentos.',
+    },
+    {
+      termino: 'Molleja',
+      significado:
+        'órgano muscular que tritura mecánicamente el alimento en las aves.',
+    },
+    {
+      termino: 'Peristaltismo',
+      significado:
+        'movimiento muscular que impulsa el alimento a través del aparato digestivo.',
+    },
+    {
+      termino: 'Proventrículo',
+      significado:
+        'primera porción del estómago de las aves, donde inicia la digestión química.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'capacidad para identificar y seguir el origen, procesamiento y destino de un producto durante toda la cadena de producción.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Instituto Colombiano Agropecuario. (2023, 1 de febrero). Mejorar las condiciones de bienestar de las aves, un propósito del ICA.',
+      link: 'https://www.ica.gov.co/noticias/mejorar-condiciones-bienestar-aves',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2023, 29 de marzo). El ICA inició pruebas en campo de la metodología que evaluará el bienestar animal en aves de corral.',
+      link: 'https://www.ica.gov.co/noticias/ica-inicio-metodologia-bienestar-animal-ave-corral',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2023, 2 de mayo). Profesionales del ICA se capacitan en evaluación del bienestar animal en aves de corral.',
+      link: 'https://www.ica.gov.co/noticias/ica-capacitacion-evaluacion-aves-de-corral',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2023, 19 de septiembre). El ICA avanza en extensión agropecuaria con bienestar animal.',
+      link: 'https://www.ica.gov.co/noticias/capacitacion-bienestar-animal-narino',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2023, 16 de noviembre). Colombia avanza en bienestar animal en la producción primaria.',
+      link: 'https://www.ica.gov.co/noticias/colombia-avanza-bienestar-animal-produccion-agroal',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2024). Inocuidad en la producción pecuaria primaria y bienestar animal.',
+      link: 'https://www.ica.gov.co/areas/pecuaria/servicios/inocuidad-en-las-cadenas-agroalimentarias',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2024). Bienestar animal en la producción pecuaria colombiana.',
       link: '',
+    },
+    {
+      referencia:
+        'Nicol, C. J., Abeyesinghe, S. M., & Chang, Y.-M. (2024). An analysis of the welfare of fast-growing and slower-growing strains of broiler chicken. Frontiers in Animal Science, 5, Article 1374609.',
+      link: 'https://doi.org/10.3389/fanim.2024.1374609',
+    },
+    {
+      referencia:
+        'Ozenturk, U., Chen, Z., Jamone, L., & Versace, E. (2023). Robotics for poultry farming: Challenges and opportunities. arXiv.',
+      link: 'https://arxiv.org/abs/2311.05069',
+    },
+    {
+      referencia:
+        'Yang, X., Dai, H., Wu, Z., Bist, R., Subedi, S., Sun, J., Lu, G., Li, C., & Liu, T. (2023). SAM for poultry science. arXiv.',
+      link: 'https://arxiv.org/abs/2305.10254',
     },
   ],
   creditos: [
@@ -308,11 +400,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
@@ -322,9 +415,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -332,20 +432,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -355,13 +485,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
