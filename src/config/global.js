@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Formulación de alimento balanceado en aves',
+    Description:
+      'Este componente formativo desarrolla los fundamentos para la formulación de alimentos balanceados en aves de corral. Aborda la fisiología digestiva, los requerimientos nutricionales, la selección de ingredientes, la elaboración de dietas, el control de calidad y el bienestar animal. Su propósito es fortalecer las competencias técnicas para diseñar programas de alimentación eficientes, sostenibles y acordes con los parámetros productivos.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,27 +36,218 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fisiología digestiva en aves granívoras',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Funciones del sistema digestivo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Componentes del sistema digestivo',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Especializaciones digestivas en aves granívoras',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Identificación de la función digestiva animal',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Relación entre órganos digestivos y absorción de nutrientes',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo:
+              'Importancia de la fisiología digestiva en la producción avícola',
+            hash: 't_1_6',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Requerimientos nutricionales y plan alimentario',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto de nutrición y alimentación animal',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Concepto de plan alimentario',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo:
+              'Requerimientos nutricionales según especie y etapa productiva',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Energía, proteína, vitaminas, minerales y agua',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Cálculo del consumo de proteína',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Análisis bromatológico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto de análisis bromatológico',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Importancia en la alimentación animal',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Parámetros bromatológicos básicos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Control de calidad de materias primas',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Muestreo bromatológico',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Micotoxinas y análisis bromatológico',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo:
+              'Aplicación del análisis bromatológico en la formulación de alimentos',
+            hash: 't_3_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Formulación y balanceo de raciones',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto de ración alimentaria',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Componentes de una ración balanceada',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Tipos de fórmulas alimenticias',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Métodos y técnicas de balanceo de dietas',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo:
+              'Formulación de raciones según requerimientos nutricionales',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo:
+              'Aplicación del análisis bromatológico en el balanceo de dietas',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Eficiencia alimenticia y desempeño productivo',
+            hash: 't_4_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Bienestar animal y buenas prácticas sanitarias en aves',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto de bienestar animal',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Principios y libertades del bienestar animal',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Comportamiento animal',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Indicadores de bienestar',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Buenas prácticas sanitarias y bioseguridad',
+            hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo: 'Buenas Prácticas Pecuarias',
+            hash: 't_5_6',
+          },
+          {
+            numero: '5.7',
+            titulo: 'Evaluación del bienestar',
+            hash: 't_5_7',
+          },
+          {
+            numero: '5.8',
+            titulo: ' Normatividad',
+            hash: 't_5_8',
+          },
+          {
+            numero: '5.9',
+            titulo: 'Acciones de mejora',
+            hash: 't_5_9',
+          },
+        ],
       },
     ],
     subMenu: [
