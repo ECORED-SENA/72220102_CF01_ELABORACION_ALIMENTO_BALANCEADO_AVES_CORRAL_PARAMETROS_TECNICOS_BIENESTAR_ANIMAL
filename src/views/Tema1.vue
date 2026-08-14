@@ -64,7 +64,7 @@
       p.mb-5 A continuación, se presentan las funciones del sistema digestivo de las aves granívoras, destacando los órganos que participan en cada proceso y su importancia para el aprovechamiento de los nutrientes y el desempeño productivo.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/60Yeid2ESJs?si=fzRz4itDZKFbJHV-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Funciones del sistema digestivo de las aves granívoras
       p.mb-5 Una vez realizadas la digestión mecánica y la digestión química, el organismo inicia los procesos que permiten incorporar y utilizar los nutrientes obtenidos de los alimentos. En la siguiente tabla se presentan las funciones relacionadas con el aprovechamiento de estos nutrientes y su contribución al crecimiento, el desarrollo y la producción de las aves.
       .bg-slider.mb-5

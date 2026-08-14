@@ -176,7 +176,7 @@
               p.mb-0 Comprende la prevención, vigilancia y diagnóstico de enfermedades mediante programas de vacunación, monitoreo epidemiológico, diagnóstico de laboratorio y necropsias sistemáticas.
       Separador
       #t_5_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 5.6 Buenas Prácticas Pecuarias
+        h2 5.6 Buenas prácticas pecuarias
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-0(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t5/img18.jpg')})` }")

@@ -23,7 +23,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-xl.mb-4.mb-lg-0
           .caja-2.ajuste-2(data-aos="fade-right").mb-3
-            p.mb-0  Una formulación deficiente puede ocasionar bajo crecimiento, disminución en la producción de huevos, baja conversión alimenticia, des uniformidad de los lotes, incremento de los costos de producción, problemas metabólicos, alteraciones óseas, mayor mortalidad y deterioro del bienestar animal.
+            p.mb-0  Una formulación deficiente puede ocasionar bajo crecimiento, disminución en la producción de huevos, baja conversión alimenticia, desuniformidad de los lotes, incremento de los costos de producción, problemas metabólicos, alteraciones óseas, mayor mortalidad y deterioro del bienestar animal.
           .caja-3.ajuste-2(data-aos="fade-right")
             p.mb-0 Por el contrario, una dieta correctamente formulada permite cubrir de manera adecuada los requerimientos nutricionales de las aves, favoreciendo una mayor productividad, mejor eficiencia alimenticia, mayor rentabilidad, mejor calidad de carne y huevos, fortalecimiento de la respuesta inmunológica y una mayor longevidad productiva.
         .col-xl-auto.col-md-9(data-aos="fade-left")
@@ -277,7 +277,7 @@
                 img(src='@/assets/curso/temas/t4/img24.png', alt="" ).m-auto
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Prueba y error
-              p.mb-0 Consiste en seleccionar ingredientes, calcular el aporte de nutrientes y realizar ajustes sucesivos hasta cumplir los requerimientos nutricionales. Actualmente se utiliza principalmente con fines académicos.
+              p.mb-0 Consiste en seleccionar ingredientes, calcular el aporte de nutrientes y realizar ajustes sucesivos hasta cumplir los requerimientos nutricionales. Actualmente, se utiliza principalmente con fines académicos.
         .py-3.py-md-4(titulo="Cuadrado de Pearson")
           .row.justify-content-center.align-items-center
             .col-xl-5.order-2.order-lg-1

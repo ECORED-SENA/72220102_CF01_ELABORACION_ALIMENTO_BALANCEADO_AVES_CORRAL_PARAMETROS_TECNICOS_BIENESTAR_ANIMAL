@@ -37,7 +37,7 @@
                   img(src='@/assets/curso/temas/t3/img3.png', alt="" ).m-auto
               h4.text-center Análisis tradicionales
               .caja-4_p
-                p.mb-0.text-center Inicialmente se limitaban a determinar el contenido de humedad, proteína, grasa, fibra y cenizas.
+                p.mb-0.text-center Inicialmente, se limitaban a determinar el contenido de humedad, proteína, grasa, fibra y cenizas.
         .col-xl-4.col-md-9(data-aos="fade-left")
           .caja-4.h-100
             .row.justify-content-center.mb-3
@@ -103,7 +103,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Productividad avícola
-                  p.mb-0 En pollos de engorde favorece una mayor ganancia diaria de peso, mejor desarrollo muscular, mejor conversión alimenticia y menor tiempo de engorde. En gallinas de postura contribuye a incrementar el porcentaje de postura, mejorar la calidad de la cáscara, aumentar la persistencia productiva y mantener la calidad interna del huevo.
+                  p.mb-0 En pollos de engorde favorece una mayor ganancia diaria de peso, mejor desarrollo muscular, mejor conversión alimenticia y menor tiempo de engorde. En gallinas de postura, contribuye a incrementar el porcentaje de postura, mejorar la calidad de la cáscara, aumentar la persistencia productiva y mantener la calidad interna del huevo.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t3/img11.png', alt='' style="max-width: 500px").m-auto
@@ -312,7 +312,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/temas/t3/audios/audio-ej.mp3'
+import audio1 from '@/assets/curso/podcast/podcast.mp3'
 export default {
   name: 'Tema3',
   data: () => ({

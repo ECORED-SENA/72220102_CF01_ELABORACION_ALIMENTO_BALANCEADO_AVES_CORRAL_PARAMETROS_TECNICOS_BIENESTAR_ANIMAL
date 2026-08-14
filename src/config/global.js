@@ -229,7 +229,7 @@ export default {
           },
           {
             numero: '5.6',
-            titulo: 'Buenas Prácticas Pecuarias',
+            titulo: 'Buenas prácticas pecuarias',
             hash: 't_5_6',
           },
           {

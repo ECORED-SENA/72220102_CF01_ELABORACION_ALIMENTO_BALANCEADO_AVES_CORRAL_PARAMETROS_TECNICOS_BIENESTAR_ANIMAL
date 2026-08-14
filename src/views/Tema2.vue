@@ -357,7 +357,7 @@
                     img(src='@/assets/curso/temas/t2/img37.png', alt="" ).m-auto
                 .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
                   h4.txt--purpura.mb-4 Programación de fases alimenticias
-                  p.mb-0 Organiza la alimentación según la edad, el desarrollo fisiológico y el propósito productivo. En pollos de engorde comprende las fases preiniciador, iniciador, crecimiento y finalizador. En gallinas de postura incluye iniciación, levante, desarrollo, prepostura y producción. La transición entre fases debe realizarse de manera gradual y de acuerdo con el desempeño del lote.
+                  p.mb-0 Organiza la alimentación según la edad, el desarrollo fisiológico y el propósito productivo. En pollos de engorde, comprende las fases preiniciador, iniciador, crecimiento y finalizador. En gallinas de postura incluye iniciación, levante, desarrollo, prepostura y producción. La transición entre fases debe realizarse de manera gradual y de acuerdo con el desempeño del lote.
             .py-3.py-md-4(titulo="Seguimiento productivo y nutricional")
               .row.justify-content-center.align-items-center
                 .col-xl-5.order-2.order-lg-1
